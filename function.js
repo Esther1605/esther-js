@@ -84,12 +84,27 @@ console.log(testequalsign(11));
 //     }
 //     return "Greater than or equal to 25"
 // }
-function testLessThan(val){
+// function testLessThan(val){
 
-    if (val < 45){
-        return "Under 45";
+//     if (val < 45){
+//         return "Under 45";
+// }
+
+//     return "45 0r over";
+// }
+// console.log(testLessThan(60));
+
+// perfoming a task
+// function greet(name, lastname){
+//     console.log("hello " + name +" " + lastname)
+// }
+
+// greet("John", "Smith");
+
+// function that calculate a value
+function square(number){
+    return number + number;
 }
 
-    return "45 0r over";
-}
-console.log(testLessThan(60));
+
+console.log(square(2));

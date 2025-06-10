@@ -9,6 +9,10 @@
 
 // modify array data
 
-var ourArray = [18, 64, 99];
-ourArray[0] = 45; 
-console.log(ourArray); 
+// var ourArray = [18, 64, 99];
+// ourArray[0] = 45; 
+// console.log(ourArray);
+
+let selectedColors =["red", "yellow"];
+selectedColors["2"]= "blue";
+console.log(selectedColors.length);
