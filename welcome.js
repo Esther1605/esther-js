@@ -24,8 +24,9 @@
 
 let question = 'What is your name?'
 let userName = prompt(question);
-let message = userName + '!' + 'Welcome'
+let message = 'Welcome' + '!' + userName 
+
 
 document.write(message);
- document.getElementById("message").innerHTML = message;
+document.getElementById("message").innerHTML = message;
 console.log(message);

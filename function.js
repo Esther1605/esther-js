@@ -102,9 +102,22 @@ console.log(testequalsign(11));
 // greet("John", "Smith");
 
 // function that calculate a value
-function square(number){
-    return number + number;
+// function square(number){
+//     return number + number;
+// }
+
+
+// console.log(square(2));
+
+// Arrow function
+var test1 = function(x){
+    return x * 5;
 }
 
+const test2 = (x) => {
+    console.log(x);
+    return x * 5;
+}
 
-console.log(square(2));
+console.log(test1(5));
+console.log(test1(10));

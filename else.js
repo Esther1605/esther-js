@@ -46,4 +46,19 @@
 // console.log(testSizes(25))
 
 
+// ternary operator
 
+let val = 200;
+// let message;
+// if (val > 100) { message = `${val} was greater than 100`;}
+// else{ message = `${val} was Less or Equal to 100`;}
+let message = (val > 100) ? `${val} was greater than 100` : `${val} was LESS or Equal to 100`;
+console.log(message);
+
+
+let check = (val % 3) ? `odd` : `Even`;
+// let message;
+// if (val > 100) { message = `${val} was greater than 100`;}
+// else{ message = `${val} was Less or Equal to 100`;}
+
+console.log(check);
