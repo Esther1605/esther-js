@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action="">
+        <div class="form">
+         <h1>Future Value Calculator</h1>
+         <label>Amount to invest:</label><br>
+         <input type="number" id="principal" value="0" placeholder="Enter principal"><br>
+
+         <label>Rate of Interest (%)</label><br>
+         <input type="number" value="0" id="rate" placeholder="Enter rate"><br>
+       
+         <label>Time(years)</label><br>
+         <input type="number" id="years" value="0" placeholder="Enter years"><br><br>
+       
+
+        <button type="button" onclick="calculateInterest()">Calculate</button>
+        <p id="result"></p>
+        </div>
+    </form>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -37,7 +37,7 @@ switch (person.toLowerCase()) {
         case "gold":
         case "joel":
         case "john":
-       message = `${person[0].toUpperCase() + person.slice(2)} is my friend`;
+       message = `${person[0].toUpperCase() + person.slice(1)} is my friend`;
        break;
        default :
        message = `I don't know ${person}`
